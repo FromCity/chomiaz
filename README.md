@@ -15,7 +15,7 @@ docker compose run --rm tests
 Примеры API-запросов:
 
 Приём webhook-сообщения
-POST /api/webhooks/messages
+POST /api/webhooks/messages/
 Пример входящего сообщения:
 {
   "external_message_id": "msg-10001",
